@@ -111,7 +111,7 @@ function App () {
       </div>
 
       <hr />
-      <h1>Películas</h1>
+      <h1>Las Películas</h1>
       <Movies />
     </>
   )
