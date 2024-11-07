@@ -14,8 +14,10 @@ import { auth } from './firebase/firebaseConfig'
 import RegisterForm from './components/RegisterForm'
 import LoginForm from './components/Login'
 import Movies from './components/Movies'
+import { GOOGLE_API_KEY } from './utils/constants'
 
 function App () {
+  console.log(GOOGLE_API_KEY)
   const dispatch = useDispatch()
   const user = useSelector(store => store.user)
 
