@@ -1,9 +1,10 @@
 import { initializeApp } from "firebase/app";
 import { FacebookAuthProvider, getAuth, GoogleAuthProvider } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
+import { GOOGLE_API_KEY } from "../utils/constants";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBicCRow16KH8BHDI2hPU56xGj7TMUsPpM",
+  apiKey: GOOGLE_API_KEY,
   authDomain: "workoutapp-a582d.firebaseapp.com",
   projectId: "workoutapp-a582d",
   storageBucket: "workoutapp-a582d.firebasestorage.app",
