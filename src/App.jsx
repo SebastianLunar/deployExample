@@ -16,6 +16,7 @@ import LoginForm from './components/Login'
 import Movies from './components/Movies'
 
 function App () {
+  console.log(process.env.REACT_APP_GOOGLE_API_KEY)
   const dispatch = useDispatch()
   const user = useSelector(store => store.user)
 
